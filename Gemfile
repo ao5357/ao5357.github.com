@@ -4,6 +4,8 @@
 source 'https://rubygems.org'
 
 gem 'github-pages', '> 103', group: :jekyll_plugins
+gem 'tzinfo-data'
+gem "nokogiri", ">= 1.11.0"
 
 group :jekyll_plugins do
   gem 'jekyll-octicons'
