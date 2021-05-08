@@ -21,10 +21,10 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "browserslist": "^4.9.1",
-    "dotenv": "^8.2.0",
-    "dotenv-flow": "^3.1.0",
-    "prettier": "^2.0.5",
+    "browserslist": "^4.16.6",
+    "dotenv": "^8.6.0",
+    "dotenv-flow": "^3.2.0",
+    "prettier": "^2.2.1",
     "purgecss": "^2.1.0",
     "terser": "^4.6.6"
   }
