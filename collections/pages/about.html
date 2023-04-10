@@ -6,32 +6,32 @@ authors:
 #hero_classes: "background-color--main-dark color--white"
 menus:
 #  copyright: 1
-#  footer: 2
-#  main: 2
+  footer: 2
+  main: 2
 #  utility: 1
 meta:
   description: "Who, what, when, where, why, and how."
-#  image:
-#    alt: "Default social image" # It's okay for this to be empty if the image is decorative
-#    src: required/meta-image--default.jpg
+  image:
+    alt: "" # It's okay for this to be empty if the image is decorative
+    src: about-brad_social.jpg
 #  robots: "index,follow"
 #  title: "Overrides the tab title and social titles"
 permalink: /about/
-#published: true
+published: true
 #schema:
 #  type: "Thing"
 sections:
   - "freshness"
 #sitemap: true
 #tags: ["three", "four"]
-title: "About"
+title: "About Brad"
 ---
 
 <section class="layout--stripe background-color--white">
   <div class="layout--stripe--inner">
     {% include atoms/heading.html
-      children="Our story, right quick"
-      classes=" heading--h1 text-align--center"
+      children="In brief"
+      classes="text-align--center"
       level="2"
     %}
 
@@ -39,120 +39,130 @@ title: "About"
 
     <div class="layout--row display--flex flex-direction--row-reverse">
       <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
-        padding-horizontal--4 padding-horizontal--collapse js--to-animate animation-name--reveal">
-        <p>Shelby and Brad met on Tinder, where they discovered an instant chemistry as well as a bunch of coincidences.</p>
-        <p>First, some coincidences:</p>
-        <ul>
-          <li>When they started chatting, Brad was supposed to be on a Tinder date with Shelby's friend, Emma. Instead,
-            <i>Shelby</i> was with Emma, looking at Tinder.
-          </li>
-          <li>Shelby's older brother, Tyson, was friends with Brad back in elementary school. Small world! Go Barnard
-            Bluejays!
-          </li>
-        </ul>
-
-        <p>Needless to say, they had plenty to talk about, and had a grand time getting phở and bánh mì on their first date.</p>
+        padding-horizontal--4 padding-horizontal--collapse">
+        {% include atoms/image.html
+          src="brad_bw.jpg"
+          alt="Brad looks very serious"
+          classes=""
+        %}
       </aside>
       <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
         padding-horizontal--4 padding-horizontal--collapse">
-        {% include atoms/image.html
-          src="bears-clipart-animated.gif"
-          alt=""
-          classes="js--to-animate js--event--click js--event--mouseover animation-name--spin animation-iteration-count--infinite animation-direction--alernate animation-duration--3s"
-        %}
+        <p>Brad Czerniak is thoroughly a Michigander.</p>
+        <p>Here are a few things about Brad you may not have known:</p>
+        <ul>
+          <li>He's owned two Ford Rangers, one which was in 3 consecutive Wayne State University homecoming parades</li>
+          <li>You can see him in <a href="https://www.youtube.com/watch?v=RXQCrOEx1-g">the Electric Six video "I buy the
+            drugs"</a> and briefly in <em>The Horne Section TV Show</em></li>
+          <li>Brad is handy with around-the-house DIY projects, crafts, and radio-controlled cars</li>
+          <li>Nostalgia-wise, 90s music takes his mind back to a specific, comforting old Taco Bell</li>
+        </ul>
       </aside>
     </div>
 
   </div>
 </section>
 
-<section class="layout--stripe background-color--main-dark color--white background-image--gradient--main">
+<section class="layout--stripe background-color--grey-light">
   <div class="layout--stripe--inner">
     {% include atoms/heading.html
-      children="What we've been up to"
-      classes=""
-      level="2"
-    %}
-
-    <div class="layout--row display--flex">
-      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center">
-        <h3>Places we've gone</h3>
-
-        <ul>
-          <li><em>Benton Harbor, MI</em>: Watched Kat do an Ironman!</li>
-          <li><em>Cuyahoga Valley National Park, OH</em>: Rocks, trees, rivers, all that jazz. We even camped</li>
-          <li><em>Philadelphia, PA</em>: Reading Terminal Market and Guy Fieri's Kitchen</li>
-          <li><em>Madison Heights, MI</em>: Augie's really does have great chicken tenders (and it's where we got engaged)</li>
-          <li><em>Rocky Mountain National Park and Fort Collins, CO</em>: Alex and Kat throw great parties. We saw moose!</li>
-        </ul>
-
-        <h3>Things we've watched</h3>
-
-        <ul>
-          <li>Diners, Drive-ins, and Dives</li>
-          <li>LOST</li>
-          <li>Doughboys, live!</li>
-          <li>Sports Night</li>
-          <li>Brick</li>
-          <li>Parasite</li>
-          <li>Hereditary</li>
-          <li>Idiocracy</li>
-          <li>About Time</li>
-          <li>Sorry to bother you</li>
-          <li>A Detroit Pistons game (in person)</li>
-        </ul>
-      </aside>
-
-      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--flex-end
-        padding-horizontal--4 padding-horizontal--collapse">
-        {% include atoms/image.html
-          src="1200x630/hereditary.jpg"
-          alt=""
-          classes="box-shadow--lifted-edges"
-        %}
-      </aside>
-    </div>
-
-    <p>And the fun doesn't stop there! We've got big plans for 2020 and beyond.</p>
-  </div>
-</section>
-
-{% include organisms/section.html
-  mode="ref"
-  slug="people"
-%}
-
-{% include organisms/section.html
-  mode="ref"
-  slug="gallery"
-%}
-
-<section class="layout--stripe">
-  <div class="layout--stripe--inner">
-    {% include atoms/heading.html
-      children="Coming from out of town?"
-      classes=" heading--h1 text-align--center"
+      children="Professional bio"
+      classes="text-align--center"
       level="2"
     %}
 
     {% include atoms/spacer.html size="4" %}
 
-    <div class="layout--row display--flex">
-      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
-        padding-horizontal--4 padding-horizontal--collapse">
-        <p>We'd be delighted to point you in the right direction for accommodations, sightseeing, food, activities, or
-          anything else your heart desires! Just contact either of us by phone, email, social media, or the
-          <a href="/rsvp/">RSVP form</a>.</p>
-        <p>For info on how cool Detroit is, <a href="https://visitdetroit.com/">check out visitdetroit.com</a>.</p>
-      </aside>
+    <div class="layout--row display--flex flex-direction--row">
       <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
         padding-horizontal--4 padding-horizontal--collapse">
         {% include atoms/image.html
-          src="1200x630/detroit.jpg"
-          alt="An artist depiction of our wedding"
-          classes="box-shadow--lifted-edges"
+          src="brad_business.jpg"
+          alt="Brad means business"
+          classes=""
         %}
       </aside>
+      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
+        padding-horizontal--4 padding-horizontal--collapse">
+        <p>If you need a web developer slash librarian, <a href="https://resume.bradczerniak.com/">look no further</a>.</p>
+        <p>Brad got his start in the working world mowing neighbors' lawns, and quickly added caddying in the Summer (briefly)
+          and doing oil changes and cleaning up a local Midas to his resume. He's done data entry for a catalog company,
+          landscaping, and a bunch of typical college jobs like front desk attendant, dorm/apartment internet technician,
+          and bookstore cashier, among others.
+        </p>
+        <p>While studying Economics at Wayne State University in Detroit, he took an introductory Library Science course,
+          and quickly applied to library school for graduate studies. While in grad school and for 5 years thereafter, Brad
+          worked as a librarian with a technological bent, making websites and other code tools for public libraries: a
+          'clicker' for tracking reference interactions, web archives for digitized local history collections, improved
+          ILS/catalog web interfaces, and solid (and responsive in 2010!) websites.
+        </p>
+        <p>In early 2013, Brad saw an opportunity to help his friend Alex grow a small Drupal-based agency, Commercial
+          Progression, into something wilder. CP was so successful, by 2016 it was acquired by Symmetri Marketing out of
+          Chicago. Brad stayed on for 4 more years, becoming the Director of Technology for the 30+ person agency before
+          eventually setting out on his own.
+        </p>
+        <p>Today, Brad runs <a href="https://solveitonce.com/">Solve it once</a>. so1ve is Brad's vision for what a modern
+          small Drupal agency can be: agile, independent, cost-effective, customer focused, with low overhead and a better
+          work/life balance.
+        </p>
+      </aside>
+
     </div>
+
+  </div>
+</section>
+
+<section class="layout--stripe background-color--white">
+  <div class="layout--stripe--inner">
+    {% include atoms/heading.html
+      children="The long story"
+      classes="text-align--center"
+      level="2"
+    %}
+
+    {% include atoms/spacer.html size="4" %}
+
+    <div class="layout--row display--flex flex-direction--row-reverse">
+      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
+        padding-horizontal--4 padding-horizontal--collapse">
+        {% include atoms/image.html
+          src="brad_kid-business.jpg"
+          alt="Brad has always meant business"
+          classes=""
+        %}
+      </aside>
+      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
+        padding-horizontal--4 padding-horizontal--collapse">
+        <p>Ok, so the two sections above are great and all, but I think this section will be easier if I switch to
+          first-person. What follows may not be the pithy marketing-speak like before. Sorry for the narrative whiplash.
+        </p>
+        <p>I was born to Linda and Steve Czerniak in 1985. I grew up in Troy, Michigan, having attended Troy Union for
+          preschool, Barnard Elementary, Baker Middle School, and Troy Athens High School in the class of 2003.
+        </p>
+      </aside>
+    </div>
+
+    <h3>Early years</h3>
+
+    <p>My first memory was visiting our former neighbors a few towns over. My older brother, Jeff, was really excited to
+      go back there, though I was mostly apprehensive. The neighbor ended up being very nice, and I recall specifically
+      standing next to a piano for a few minutes.
+    </p>
+    <p>Not long after that, I vaguely recall the roughhousing incident in our family room when I fell off the couch with
+      some force, and cut open my forehead on the ledge of the fireplace. Those were my first stitches, and the scar remains
+      on my forehead, though nowadays it blends right in with my rapidly-deepening wrinkles.
+    </p>
+    <p>My younger brother, Greg, needed eye surgery when he was 3 or 4 years old. He came out of it no worse for wear, and
+      he received a Ghostbusters fire house playset from my parents that became the base of operations for all our action
+      figures for years. If the Ghostbusters were real, they likely would have been perturbed by all the Ninja Turtles and
+      Starfleet officers hanging out in their offices.
+    </p>
+
+    <h3>School years</h3>
+
+    <p>Wait... what am I doing? This is a lot of detail for some random guy who makes websites in the mitten state. If
+      you've read this far and want to read more, could you email <a href="mailto:ao5357@gmail.com">ao5357 [at] gmail.com</a>
+      and let me know I've got more writing to do?
+    </p>
   </div>
 </section>

@@ -10,15 +10,15 @@
 {% endif %}
 
 {% if jekyll.environment != "development" and site.no_pre_commit_dependencies != true %}
-  <link rel="stylesheet" type="text/css" href="{{ site.subpath }}/assets/css/pre-commit-dependency/style.css" media="print" onload="this.media='all'" />
+  <link rel="stylesheet" type="text/css" href="{{ site.subpath }}/assets/css/pre-commit-dependency/style.css" />
 {% else %}
-  <link rel="stylesheet" type="text/css" href="{{ site.subpath }}/assets/css/style.css" media="print" onload="this.media='all'" />
+  <link rel="stylesheet" type="text/css" href="{{ site.subpath }}/assets/css/style.css" />
 {% endif %}
 <noscript><link rel="stylesheet" type="text/css" href="{{ site.subpath }}/assets/css/style.css" /></noscript>
 {% include head/loading.html %}
 {% if page.attached.css[0] %}
   {% for css in page.attached.css %}
-    <link rel="stylesheet" type="text/css" href="{{ site.subpath }}{{ css }}" media="print" onload="this.media='all'" />
+    <link rel="stylesheet" type="text/css" href="{{ site.subpath }}{{ css }}" />
     <noscript><link rel="stylesheet" type="text/css" href="{{ site.subpath }}{{ css }}" /></noscript>
   {% endfor %}
 {% endif %}
