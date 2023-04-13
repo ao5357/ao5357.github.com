@@ -86,3 +86,45 @@ title: "Home"
     </div>
   </div>
 </section>
+
+<section class="layout--stripe background-color--main-light">
+  <div class="layout--stripe--inner">
+    {% include atoms/heading.html
+      children="Are you a recruiter?"
+      classes="text-align--center"
+      level="2"
+    %}
+
+    {% include atoms/spacer.html size="4" %}
+
+    <div class="display--flex layout--row justify-content--center">
+      <aside class="flex--2 padding-horizontal--4">
+        <p>
+          I'm glad you're here, collecting more background info! Here are some points to save you time:
+        </p>
+        <ul>
+          <li>If the rate is $70/hr or lower I'm probably not interested</li>
+          <li>I prefer part-time, but entertain 6-month contract-to-hire. No long-term</li>
+          <li>If the posting contains the word Drupal I'll take a look</li>
+          <li>I'm senior-level, full-stack, experienced with architecture, technical PM, and leadership. Much more likely
+            to do a backend (custom modules) gig than all front-end</li>
+          <li>A 'decoupled' project or any posting about React/Angular/etc. is probably not my speed</li>
+        </ul>
+      </aside>
+      <aside class="flex--1 padding-horizontal--4">
+        <p>
+          ...and here's links and documents:
+        </p>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/bczerniak">Connect with me on LinkedIn</a></li>
+          <li><a href="https://resume.bradczerniak.com/">Canonical Resume</a></li>
+          <li><a href="{{ site.url }}{{ site.subpath }}/assets/other/Resume_Brad-Czerniak_Drupal.docx"
+            download="Resume_Brad-Czerniak_Drupal.docx"
+          >docx Resume you can edit</a></li>
+          <li><a href="mailto:brad@solveitonce.com">brad@solveitonce.com</a></li>
+          <li><a href="tel:+13135097214">(313) 509-7214</a> for business</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</section>
