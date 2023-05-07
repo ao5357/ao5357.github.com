@@ -63,10 +63,17 @@ footer,
 header,
 nav,
 section {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
+}
+
+/**
+ * Attempt snappier rendering performance with the content-visibility property on stripes.
+ */
+body:not(.page--front) > main > section,
+body.page--front > main > section:nth-child(n + 2) {
+  content-visibility: auto;
+  contain-intrinsic-size: 850px; /* Magic number heuristic for average stripe height. */
 }
 
 /**
@@ -104,6 +111,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
+  overflow-y: scroll;
   text-rendering: optimizeLegibility;
 }
 
@@ -124,13 +132,19 @@ body {
   margin: 0;
   scroll-behavior: smooth;
 }
-@media all and (prefers-color-scheme: dark) {
+@media (max-width: 1023px) {
   body {
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+}
+@media all and (prefers-color-scheme: dark) {
+  .prefers-color-scheme--dark {
     background-color: var(--color--grey-dark);
     background-image: none;
     filter: grayscale(100%) invert(100%);
   }
-  figure {
+  .prefers-color-scheme--dark figure img {
     filter: invert(100%);
   }
 }
