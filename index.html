@@ -201,3 +201,40 @@ title: "Home"
     </div>
   </div>
 </section>
+
+<section class="layout--stripe text-align--center">
+  <div class="layout--stripe--inner">
+    {% include atoms/heading.html
+      children="Office hours"
+      classes="font-weight--900"
+      level="2"
+    %}
+
+    {% include atoms/spacer.html size="2" %}
+
+    <div class="display--flex layout--row flex-direction--row-reverse justify-content--center text-align--left">
+      <aside class="flex--1 padding-horizontal--4 padding-horizontal--collapse">
+        {% include atoms/image.html
+          src="1200x630/tuscan-sign.jpg"
+          alt="Sign for Tuscan Cafe in Northville, as seen on Main Street"
+          classes="box-shadow--lifted-edges"
+        %}
+
+        {% include atoms/spacer.html size="4" %}
+      </aside>
+
+      <aside class="flex--1 padding-horizontal--4 padding-horizontal--collapse">
+        <p>
+          Need some face time with Brad? You can find him at
+          <a href="http://www.thetuscancafe.com/">Tuscan Café in Northville, Michigan</a>, on the third Wednesday
+          of every month, from 1:00 PM to 5:00 PM.
+        </p>
+
+        <p>
+          Want the recurring calendar invite? Just email <a href="mailto:brad@solveitonce.com">brad@solveitonce.com</a>
+          and I'll get you added.
+        </p>
+      </aside>
+    </div>
+  </div>
+</section>
