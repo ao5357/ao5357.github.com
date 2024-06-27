@@ -2,6 +2,7 @@
   "name": "finished-starter",
   "version": "1.0.0",
   "description": "Finished starter is a complete website you can host anywhere and hack on easily",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lowerbarriers/finished-starter.git"
@@ -16,16 +17,20 @@
     "browserslist": "env BROWSERSLIST_CONFIG=./_includes/.browserslistrc browserslist",
     "prettier-css": "prettier --write 'assets/css/{theme,utility}/*.css'",
     "prettier-js": "prettier --write 'assets/js/partials/*.js'",
-    "purgecss": "purgecss -c .node_config/purgecss.config.js -o assets/css/pre-commit-dependency/",
-    "terser": "terser _site/assets/js/behavior.js -o assets/js/pre-commit-dependency/behavior.js"
+    "purgecss": "purgecss -c .node_config/purgecss.config.cjs -o assets/css/pre-commit-dependency.css",
+    "terser": "terser _site/assets/js/behavior.js -o assets/js/pre-commit-dependency.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.2"
+  },
   "devDependencies": {
-    "browserslist": "^4.16.6",
+    "browserslist": "^4.21.3",
     "dotenv": "^8.6.0",
     "dotenv-flow": "^3.2.0",
-    "prettier": "^2.2.1",
-    "purgecss": "^4.0.3",
-    "terser": "^4.6.6"
+    "lighthouse": "^9.6.6",
+    "node-fetch": "^3.3.2",
+    "prettier": "^2.7.1",
+    "purgecss": "^4.1.3",
+    "terser": "^4.8.1"
   }
 }
