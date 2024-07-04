@@ -1,0 +1,376 @@
+images:
+  - path: 'lanojs.png.webp'
+    height: 522
+    width: 351
+  - path: 'the_letter_that_johnnie_walker_read.jpg.webp'
+    height: 669
+    width: 500
+  - path: 'lovegurup1.jpg.webp'
+    height: 614
+    width: 439
+  - path: 'default_alarm.png.webp'
+    height: 480
+    width: 320
+  - path: 'in-css/hero-home.jpg'
+    height: 972
+    width: 1920
+  - path: 'in-css/hero-home.jpg.webp'
+    height: 972
+    width: 1920
+  - path: 'tables_content_in_css.png.webp'
+    height: 390
+    width: 612
+  - path: 'lanojs.png'
+    height: 522
+    width: 351
+  - path: 'alarming.jpg.webp'
+    height: 480
+    width: 320
+  - path: 'frequentflyermiles.png.webp'
+    height: 1000
+    width: 1600
+  - path: 'nyan_cat.jpg'
+    height: 1936
+    width: 2592
+  - path: 'atheme.jpg.webp'
+    height: 395
+    width: 640
+  - path: 'the_letter_that_johnnie_walker_read.jpg'
+    height: 669
+    width: 500
+  - path: 'atheme.jpg'
+    height: 395
+    width: 640
+  - path: 'ranger-float.jpg.webp'
+    height: 453
+    width: 604
+  - path: 'nauticalmiles.png.webp'
+    height: 1000
+    width: 1600
+  - path: 'languages-of-a-conversation.jpg'
+    height: 600
+    width: 800
+  - path: 'brad_senior-photo.jpg'
+    height: 1962
+    width: 1456
+  - path: 'ranger-float.jpg'
+    height: 453
+    width: 604
+  - path: 'brad_bw.jpg.webp'
+    height: 856
+    width: 1200
+  - path: 'frequentflyermiles.png'
+    height: 1000
+    width: 1600
+  - path: 'hawidu.png.webp'
+    height: 125
+    width: 500
+  - path: 'brad_bw.jpg'
+    height: 856
+    width: 1200
+  - path: 'weirdcomm.jpg.webp'
+    height: 337
+    width: 700
+  - path: 'posts/2023-05-24-so1ve-anniversary/2-prep-counters.jpg'
+    height: 3024
+    width: 4032
+  - path: 'posts/2023-05-24-so1ve-anniversary/papercraft.jpg.webp'
+    height: 3024
+    width: 4032
+  - path: 'posts/2023-05-24-so1ve-anniversary/papercraft.jpg'
+    height: 3024
+    width: 4032
+  - path: 'posts/2023-05-24-so1ve-anniversary/invitation-progress.jpg'
+    height: 453
+    width: 1415
+  - path: 'posts/2023-05-24-so1ve-anniversary/family.jpg.webp'
+    height: 2048
+    width: 1536
+  - path: 'posts/2023-05-24-so1ve-anniversary/1-floors.jpg'
+    height: 3024
+    width: 4032
+  - path: 'posts/2023-05-24-so1ve-anniversary/3-mostly-finished.jpg'
+    height: 3024
+    width: 4032
+  - path: 'posts/2023-05-24-so1ve-anniversary/family.jpg'
+    height: 2048
+    width: 1536
+  - path: 'posts/2023-05-24-so1ve-anniversary/0-hanging-cabinets.jpg.webp'
+    height: 3024
+    width: 4032
+  - path: 'posts/2023-05-24-so1ve-anniversary/0-hanging-cabinets.jpg'
+    height: 3024
+    width: 4032
+  - path: 'posts/2023-05-24-so1ve-anniversary/invitation-progress.jpg.webp'
+    height: 453
+    width: 1415
+  - path: 'posts/2023-05-24-so1ve-anniversary/2-prep-counters.jpg.webp'
+    height: 3024
+    width: 4032
+  - path: 'posts/2023-05-24-so1ve-anniversary/1-floors.jpg.webp'
+    height: 3024
+    width: 4032
+  - path: 'posts/2023-05-24-so1ve-anniversary/3-mostly-finished.jpg.webp'
+    height: 3024
+    width: 4032
+  - path: 'hit.jpg'
+    height: 264
+    width: 422
+  - path: 'luda404.jpg.webp'
+    height: 338
+    width: 471
+  - path: 'map-class-regex.png.webp'
+    height: 596
+    width: 1108
+  - path: 'translit-medium-example.jpg'
+    height: 600
+    width: 800
+  - path: 'tj.jpg'
+    height: 293
+    width: 200
+  - path: 'nyan_cat.jpg.webp'
+    height: 1936
+    width: 2592
+  - path: 'ios-grid.png'
+    height: 960
+    width: 640
+  - path: 'all_i_see_are_equations.png.webp'
+    height: 1182
+    width: 744
+  - path: 'bpcz_gc_bg.jpg.webp'
+    height: 717
+    width: 1599
+  - path: 'brad_senior-photo.jpg.webp'
+    height: 1962
+    width: 1456
+  - path: 'asymbol.jpg'
+    height: 469
+    width: 525
+  - path: 'brad_kid-business.jpg.webp'
+    height: 540
+    width: 806
+  - path: 'logo-mark.png'
+    height: 375
+    width: 640
+  - path: '1200x630/tuscan-sign.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_business-maxims.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_sass-considered-harmful.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/banana.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/brad-czerniak.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/john-locke.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/banana.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_sass-considered-harmful.png'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_business-maxims.png'
+    height: 630
+    width: 1200
+  - path: '1200x630/tuscan-sign.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/pontoon-boat.jpg'
+    height: 629
+    width: 1200
+  - path: '1200x630/share_3day-five.png'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_3-years-of-so1ve.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_3day-five.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/brad-czerniak.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/pontoon-boat.jpg.webp'
+    height: 629
+    width: 1200
+  - path: '1200x630/banana-invert.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_3-years-of-so1ve.png'
+    height: 630
+    width: 1200
+  - path: '1200x630/john-locke.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/banana-invert.jpg'
+    height: 630
+    width: 1200
+  - path: 'french-onion-dip.jpg'
+    height: 630
+    width: 1200
+  - path: 'map-class-regex.png'
+    height: 596
+    width: 1108
+  - path: 'logo-mark.png.webp'
+    height: 375
+    width: 640
+  - path: 'about-brad_social.jpg.webp'
+    height: 630
+    width: 1200
+  - path: 'symbols.jpg.webp'
+    height: 416
+    width: 563
+  - path: 'paranormal.jpg.webp'
+    height: 250
+    width: 584
+  - path: '960x640baselinegrid.jpg'
+    height: 960
+    width: 640
+  - path: 'bpcz_gc_bg.jpg'
+    height: 717
+    width: 1599
+  - path: 'paranormal.jpg'
+    height: 250
+    width: 584
+  - path: 'asymbol.jpg.webp'
+    height: 469
+    width: 525
+  - path: 'required/s.gif.webp'
+    height: 1
+    width: 1
+  - path: 'required/apple-touch-icon.png'
+    height: 256
+    width: 256
+  - path: 'required/s.gif'
+    height: 1
+    width: 1
+  - path: 'required/demo.jpg.webp'
+    height: 1279
+    width: 1920
+  - path: 'required/tile.png.webp'
+    height: 558
+    width: 558
+  - path: 'required/demo.jpg'
+    height: 1279
+    width: 1920
+  - path: 'required/logo-mark_512.png.webp'
+    height: 512
+    width: 512
+  - path: 'required/demo_bw.jpg'
+    height: 1281
+    width: 1920
+  - path: 'required/tile-wide.png'
+    height: 270
+    width: 558
+  - path: 'required/s.webp'
+    height: 
+    width: 
+  - path: 'required/demo_bw.jpg.webp'
+    height: 1281
+    width: 1920
+  - path: 'required/logo-mark_512.png'
+    height: 512
+    width: 512
+  - path: 'required/tile.png'
+    height: 558
+    width: 558
+  - path: 'required/apple-touch-icon.png.webp'
+    height: 256
+    width: 256
+  - path: 'required/meta-image--default.jpg'
+    height: 630
+    width: 1200
+  - path: 'required/tile-wide.png.webp'
+    height: 270
+    width: 558
+  - path: 'required/meta-image--default.jpg.webp'
+    height: 630
+    width: 1200
+  - path: 'mixin-docs.png.webp'
+    height: 701
+    width: 992
+  - path: 'translit-medium-example.jpg.webp'
+    height: 600
+    width: 800
+  - path: 'symbols.jpg'
+    height: 416
+    width: 563
+  - path: 'mixin-docs.png'
+    height: 701
+    width: 992
+  - path: 'default_alarm.png'
+    height: 480
+    width: 320
+  - path: 'hit.jpg.webp'
+    height: 264
+    width: 422
+  - path: 'gmail_stickers.jpg'
+    height: 1200
+    width: 1600
+  - path: 'french-onion-dip.jpg.webp'
+    height: 630
+    width: 1200
+  - path: 'ios-grid.png.webp'
+    height: 960
+    width: 640
+  - path: 'hawidu.png'
+    height: 125
+    width: 500
+  - path: 'brad_kid-business.jpg'
+    height: 540
+    width: 806
+  - path: 'weirdcomm.jpg'
+    height: 337
+    width: 700
+  - path: 'tables_content_in_css.png'
+    height: 390
+    width: 612
+  - path: 'brad_business.jpg.webp'
+    height: 1776
+    width: 1080
+  - path: 'alarming.jpg'
+    height: 480
+    width: 320
+  - path: 'brad_business.jpg'
+    height: 1776
+    width: 1080
+  - path: 'languages-of-a-conversation.jpg.webp'
+    height: 600
+    width: 800
+  - path: '960x640baselinegrid.jpg.webp'
+    height: 960
+    width: 640
+  - path: 'gmail_stickers.jpg.webp'
+    height: 1200
+    width: 1600
+  - path: 'all_i_see_are_equations.png'
+    height: 1182
+    width: 744
+  - path: 'nauticalmiles.png'
+    height: 1000
+    width: 1600
+  - path: 'luda404.jpg'
+    height: 338
+    width: 471
+  - path: 'lovegurup1.jpg'
+    height: 614
+    width: 439
+  - path: 'turk.jpg'
+    height: 264
+    width: 422
+  - path: 'tj.jpg.webp'
+    height: 293
+    width: 200
+  - path: 'about-brad_social.jpg'
+    height: 630
+    width: 1200
+  - path: 'turk.jpg.webp'
+    height: 264
+    width: 422
