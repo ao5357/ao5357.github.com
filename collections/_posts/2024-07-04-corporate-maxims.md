@@ -18,7 +18,7 @@ tags: ["Business"]
 title: "Things I keep repeating in meetings"
 ---
 
-One of the things I really like about [my friend Nick Denardis' newsletter](https://nickdenardis.substack.com/)
+One of the things I really like about [my friend Nick DeNardis' newsletter](https://nickdenardis.substack.com/)
 is the pithy quote on top and usually-succinct linked articles with the easy-to-understand summaries Nick provides.
 
 _As an aside_, I also love the following email newsletters:
