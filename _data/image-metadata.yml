@@ -194,6 +194,12 @@ images:
   - path: '1200x630/share_3day-five.png.webp'
     height: 630
     width: 1200
+  - path: '1200x630/share_my-productivity-system.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/example-index-card.jpg'
+    height: 630
+    width: 1200
   - path: '1200x630/brad-czerniak.jpg.webp'
     height: 630
     width: 1200
@@ -206,7 +212,13 @@ images:
   - path: '1200x630/share_3-years-of-so1ve.png'
     height: 630
     width: 1200
+  - path: '1200x630/example-index-card.jpg.webp'
+    height: 630
+    width: 1200
   - path: '1200x630/john-locke.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_my-productivity-system.png'
     height: 630
     width: 1200
   - path: '1200x630/banana-invert.jpg'
