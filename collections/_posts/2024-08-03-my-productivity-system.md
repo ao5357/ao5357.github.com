@@ -5,7 +5,7 @@ authors:
 #date: 2020-03-03 02:02:02
 #hero_classes: "background-color--main-dark color--white"
 meta:
-  description: "An index card and some simple rules that keep my going"
+  description: "An index card and some simple rules that keep me going"
   image:
     alt: "A weekly index card works for me. Maybe it will work for you, too." # It's okay for this to be empty if the image is decorative
     src: 1200x630/share_my-productivity-system.png
