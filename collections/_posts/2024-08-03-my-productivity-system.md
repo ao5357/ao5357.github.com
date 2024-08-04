@@ -244,7 +244,7 @@ colorful card on a white desk.
 
 Sometimes when there's a high-priority task that I should do next I circle the checkbox.
 
-Sometimes when I'm making a card for the week and there are tasks that a related to one another I
+Sometimes when I'm making a card for the week and there are tasks that are related to one another I
 group them inside a left-side square bracket.
 
 Sometimes when a task is canceled (by a client per rule #3!) I mark it with an x rather than a checkmark.
@@ -268,7 +268,7 @@ short description of what I have to do in order to check off that box.
 ### Negative tasks
 
 So far I don't think I've done a daily or other task that's like "Don't smoke" or something. It's kind
-of an interesting idea. Would definitely be interested in knowing if it's works for somebody.
+of an interesting idea. Would definitely be interested in knowing if it works for somebody.
 
 ## Make it your own
 
