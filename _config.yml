@@ -44,10 +44,10 @@ email: ao5357@gmail.com
 #  mailto: "12485550213" # Fex number with country code for the link
 locations:
   - name: "Brad Czerniak"
-    street_address: "1428 Mark Ave"
-    locality: Lincoln Park
+    street_address: "5168 Walden Dr"
+    locality: Swartz Creek
     region: MI
-    postal_code: "48146"
+    postal_code: "48473"
     country_name: USA
 phone:
   display: "(248) 721-0350" # Phone number as displayed
